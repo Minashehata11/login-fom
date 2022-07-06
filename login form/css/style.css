@@ -1,0 +1,181 @@
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; 
+    padding: 0px;
+    margin: 0px;
+
+}
+body{
+    font-family: "work-sans","sans-serif";
+    background: linear-gradient(to bottom right,#f3d9ff, #b5e6a4 );
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-size: cover ;
+    background-repeat: no-repeat ;
+    
+}
+
+.container{
+    position: relative;
+}
+
+
+
+form{
+    padding: 20px;
+    background-color: #f3d9ff;
+    border-radius: 37px;
+    width: 326px;
+    position: relative;
+    top: 30%;
+    height: 500px;
+}
+
+form input{
+
+    display: block;
+    margin-bottom: 2px;
+    margin-top: 3px;
+    width: 100%;
+    padding: 8px;
+    border-radius: 7px;
+    border: 0.5px solid #e2cece8a;
+    transition:0.5s;
+}
+ 
+form input:hover{
+    border: 0.5px solid rgb(0, 0, 0);
+}
+
+
+form input:focus{
+    border: 0.5px solid rgb(0, 0, 0);
+}
+
+
+
+
+input[type=submit]{
+
+    background-color:#0b900b;
+    border: none;
+    color: #35232e;
+    padding: 13px 23px;
+    text-decoration: none;
+
+    cursor: pointer;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 17px;
+}
+  
+
+
+  input[type=text]{
+
+    display: block;
+    margin-bottom: 20px;
+}
+
+ form .text{
+    text-align: center;
+    margin-bottom: 38px;
+ }
+  form .text h1{
+    margin-bottom: 1px;
+    font-weight: bold;
+  }
+
+  form i{
+    font-size: 26px;
+    color: green;
+}
+ 
+form p:nth-of-type(1){
+    float: left;
+    margin-bottom: 25px;
+    font-size: 13px;
+    font-weight: 800;
+    color: 000000c7;
+    cursor: pointer;
+}
+form p:nth-of-type(2){
+    margin-bottom: 25px;
+    font-size: 13px;
+    font-weight: 800;
+    margin: 20px 0px;
+}
+form .btn{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+form  .btn i{
+    color: black;
+    font-size: 15px;
+    margin-right: 6px;
+  
+}
+ 
+form .btn button{
+    display: flex;
+    padding: 8px;
+    border-radius: 5px;
+    border: 0.5px solid #00000029;
+    cursor: pointer;
+}
+
+
+form .btn button p{
+
+    margin: 0px;
+}
+p:last-of-type{
+    font-size: 13px;
+    font-weight: 800;
+    color: 000000c7;
+    margin-top: 8px;
+    cursor: pointer;
+}
+
+
+
+ul {
+    background-color: #ddd;
+    margin: 20px -260px;
+    padding: 20px;
+    width: 400px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    height: fit-content;
+}
+
+  ul li {
+    width: 60px;
+    height: 60px;
+    border: 2px solid transparent;
+    opacity: 0.4;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  ul li.active,
+  ul li:hover {
+    opacity: 1;
+  }
+  ul li:first-child {
+    background-color: red;
+  }
+  ul li:nth-child(2) {
+    background-color: green;
+  }
+  ul li:nth-child(3) {
+    background-color: blue;
+  }
+  ul li:nth-child(4) {
+    background-color: black;
+  }
